@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Start Quiz Container -->
+    <div id="startContainer">
+        <h1>Welcome to the Simple Math Quiz!</h1>
+        <button id="startButton">Start Quiz</button>
+    </div>
+    <!-- Quiz Container -->
+    <div id="quizContainer" class="hidden">
+        <h2>JavaScript Fundamentals Quiz</h2>
+        <div id="question-container"></div>
+        <div id="options-container"></div>
+        <button id="next-button">Next Question</button>
+    </div>
+
+    <!-- Score Container -->
+    <div id="scoreContainer" class="hidden">
+        <h3>Your Score:</h3>
+        <p id="score"></p>
+        <button id="restart-button">Restart Quiz</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
