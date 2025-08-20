@@ -12,26 +12,32 @@ body {
     display: none;
 }
 
-/* Start Quiz Container */
+/* Main Container */
 
-#startContainer {
+#mainContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #203B37;
     border-radius: 15px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    
-    width:1450px;
+    width: 1450px;
     max-width: 70%;
     height: 775px;
     max-height: 80%;
-    
+}
+
+/* Start Quiz Container */
+
+#startContainer {
+    text-align: center;
 }   
 
 #startContainer h1 {
     font-size: 50px;
     text-align: center;
-    color: #96CDB0;
+    color: white;
 }
 
 #startButton {
@@ -40,7 +46,7 @@ body {
     height: 50px;
     font-size: 20px;
     border-radius: 10px;
-    background-color: lightcyan;
+    background-color: white;
     border: 2px solid black;
 }
 
@@ -57,27 +63,26 @@ body {
 /* Start Quiz Container */
 
 #quizContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #203B37;
-    border-radius: 15px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    
-    width:1450px;
+    padding: 64px;
+    gap: 64px;
+    border: 1px solid #96CDB0;
+    width: 1450px;
     max-width: 70%;
     height: 775px;
     max-height: 80%;
 }
 
 #quizContainer h2 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
-    color: #96CDB0;
+    color: white;
 }
 
 #questionContainer {
-    text-align: center;
-    border: 1px solid #96CDB0;
+    flex-direction: column;
+    gap: 120px;
+    color: black;
+    font-size: 30px;;
 }
 
 #optionsContainer {
@@ -85,7 +90,8 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 75px;
-    border: 1px solid #96CDB0;
+    font-size: 30px;
+    color: black;
 }
 
 #nextButton {
@@ -94,8 +100,9 @@ body {
     height: 50px;
     font-size: 20px;
     border-radius: 10px;
-    background-color: lightcyan;
+    background-color: white;
     border: 2px solid black;
+    margin-bottom: 40px;
 
 }
 
@@ -111,21 +118,10 @@ body {
 /* Score Container */
 
 #scoreContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #203B37;
-    border-radius: 15px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    
-    width:1450px;
-    max-width: 70%;
-    height: 775px;
-    max-height: 80%;
 }
 
 #scoreContainer h3 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     color: #96CDB0;
 }
@@ -136,7 +132,7 @@ body {
     height: 50px;
     font-size: 20px;
     border-radius: 10px;
-    background-color: lightcyan;
+    background-color: white;
     border: 2px solid black;
 }
 
