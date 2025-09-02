@@ -98,7 +98,7 @@ function selectOption(i) {
     }
     Array.from(optionsButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
-            button.style.backgroundColor = "Orange"; 
+            button.style.backgroundColor = "yellow"; 
             button.style.color = "white";
         }
         button.disabled = true;
